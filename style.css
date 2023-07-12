@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: MazzardL;
+    src: url(./fonts/MazzardL-Regular.otf) format (truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: MazzardL;
+    src: url(./fonts/MazzardL-SemiBold.otf) format (truetype);
+    font-weight: 600;
+}
+body {
+    font-family: "MazzardL", sans-serif;
+}
+.content {
+    max-width: 1600px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    background-color: fff;
+}
+nav {
+    height: 30px;
+    margin-bottom: 40px;
+}
+.logo {
+    margin-top: 5px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+a {
+    text-decoration: none;
+    color: #1d263a;
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.last-nav {
+    margin-left: 280px;
+}
+
+.header {
+    position: relative;
+    background-color: #fae2da;
+    border-radius: 30px;
+    height: 676px;
+    margin-bottom: 100px;
+}
+
+.hero-img {
+    position: absolute;
+    top: 75px;
+    left: 90px;
+    height: 525px;
+    /* width: 40%; */
+}
+.round-shape {
+    height: 313px;
+    /* width: 25%; */
+    position: absolute;
+    top: 146px;
+    left: 250px;
+}
+.header-right {
+    position: absolute;
+    top: 129px;
+    right: 77px;
+    left: 600px;
+    display: inline-block;
+    /* width: 55%; */
+}
+.main-text {
+    color: #ff794d;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+h1 {
+    color: #1d263a;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 27px;
+}
+.orange-line {
+    display: inline-block;
+    width: 40px;
+    background-color: #ff794d;
+}
+.words {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 58px;
+    line-height: 28px;
+    opacity: 0.69;
+}
+
+.orange-line {
+    margin-bottom: 3px;
+}
+.bottom-text {
+    margin-left: 25px;
+    display: inline-block;
+}
+.header-bottom {
+    padding-left: 140px;
+}
+.header-bottom p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.header-bottom h2 {
+    margin-bottom: 15px;
+}
+
+.header-bottom div {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% -120px) / 3);
+}
+.header-bottom .first,
+.second {
+    margin-right: 50px;
+}
+.first,
+.second,
+.third {
+    position: relative;
+}
+#heart,
+#zap,
+#headphone {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#heart {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+
+    background-color: #d6ebe4;
+}
+#zap {
+    background-color: #fae2da;
+}
+#headphone {
+    background-color: #ebf5ff;
+}
+.text {
+    margin-left: 117px;
+}
+.icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
