@@ -30,8 +30,8 @@ nav {
 }
 .logo {
     margin-top: 5px;
-    margin-right: 150px;
-    margin-left: 100px;
+    margin-right: 90px;
+    margin-left: 150px;
 }
 a {
     text-decoration: none;
@@ -48,7 +48,7 @@ li {
     margin-left: 50px;
 }
 .last-nav {
-    margin-left: 280px;
+    margin-left: 200px;
 }
 
 .header {
@@ -108,9 +108,9 @@ h1 {
 
 .orange-line {
     margin-bottom: 3px;
+    margin-right: 15px;
 }
 .bottom-text {
-    margin-left: 25px;
     display: inline-block;
 }
 .header-bottom {
@@ -171,4 +171,107 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* Second section*/
+
+.design {
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-right: 500px;
+}
+.second-container {
+    padding: 80px;
+    height: 965px;
+}
+
+.container-header {
+}
+.couch,
+.chair-dark,
+.chair-light {
+    border-radius: 30px;
+    display: inline-block;
+    width: 500px;
+    width: calc((100% - 10px) / 3);
+    height: 682px;
+}
+.arrow {
+    margin-left: 10px;
+}
+/* Progress Section*/
+.progress-section {
+    padding-left: 100px;
+    /* padding-right: 150px; */
+    padding-bottom: 140px;
+}
+/* .devider {
+    position: absolute;
+} */
+.progress-first-content {
+    margin-bottom: 110px;
+    opacity: 0.69;
+    font-size: 17px;
+    color: #1d263a;
+    font-weight: 600;
+    line-height: 30px; /* 176.471% */
+    letter-spacing: 4px;
+}
+.inline-block {
+    display: inline-block;
+}
+.devider-second {
+    margin-bottom: 170px;
+}
+.num {
+    /* position: absolute;
+    top: 0; */
+    color: #20bfa9;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: -0.5px;
+    margin-right: 0px;
+}
+.first-progress {
+    /* position: absolute;
+    top: 0;
+    left: 100px; */
+    color: #1d263a;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; /* 127.778% */
+    letter-spacing: -1px;
+    margin-right: 85px;
+}
+.second-progress {
+    opacity: 0.6;
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 150px;
+}
+.progress-link,
+.progress-link {
+}
+
+.first-progress {
+    color: #1d263a;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -1px;
+    margin-right: 85px;
+}
+.num {
+    color: #20bfa9;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: -0.5px;
+    margin-right: 70px;
 }
