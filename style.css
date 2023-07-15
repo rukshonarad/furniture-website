@@ -57,6 +57,7 @@ a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
+    font-size: 17px;
 }
 ul {
     list-style-type: none;
@@ -64,7 +65,7 @@ ul {
 
 li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .last-nav {
     margin-left: 200px;
@@ -192,16 +193,20 @@ h1 {
     font-size: 42px;
     font-weight: 600;
     margin-bottom: 50px;
-    margin-right: 60px;
+    margin-right: 700px;
 }
 .picture-wrapper img {
     border-radius: 30px;
     display: inline-block;
     width: auto;
-    width: calc((100% - 20px) / 3);
+    width: calc((100% - 30px) / 3);
+    margin-right: 5px;
     height: 682px;
     object-fit: cover;
     margin-bottom: 100px;
+}
+#couch {
+    margin-left: 3px;
 }
 .picture-wrapper {
     position: relative;
@@ -215,6 +220,10 @@ h1 {
     padding: 20px;
     background-color: #fff;
 }
+/* .price h5 {
+    color: #1d263a;
+    margin-bottom: 100px;
+} */
 h4 {
     font-size: 32px;
     font-weight: 600;
@@ -416,10 +425,10 @@ h5 {
     height: 30px;
     width: 30px;
 }
-#play-icon:hover {
+/* #play-icon:hover {
     height: 40px;
     width: 40px;
-}
+} */
 .play-btn {
 }
 /* Subscibe section */
@@ -544,7 +553,6 @@ footer {
 .name {
     color: #1d263a;
     font-size: 13px;
-
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 4px;
@@ -553,7 +561,6 @@ footer {
 .name1 {
     color: #1d263a;
     font-size: 13px;
-
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 4px;
