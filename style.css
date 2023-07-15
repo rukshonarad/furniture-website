@@ -5,13 +5,13 @@
 }
 @font-face {
     font-family: MazzardL;
-    src: url(./fonts/MazzardL-Regular.otf) format (truetype);
+    src: url(./fonts/MazzardL-Regular.otf) format(truetype);
     font-weight: 400;
 }
 
 @font-face {
     font-family: MazzardL;
-    src: url(./fonts/MazzardL-SemiBold.otf) format (truetype);
+    src: url(./fonts/MazzardL-SemiBold.otf) format(truetype);
     font-weight: 600;
 }
 body {
@@ -192,7 +192,7 @@ h1 {
     font-size: 42px;
     font-weight: 600;
     margin-bottom: 50px;
-    margin-right: 500px;
+    margin-right: 60px;
 }
 .picture-wrapper img {
     border-radius: 30px;
@@ -519,7 +519,6 @@ footer {
 .footer-contact a {
     display: block;
     font-size: 17px;
-    font-style: normal;
     font-weight: 400;
     line-height: 50px;
     color: #1d263a;
@@ -529,7 +528,6 @@ footer {
 .footer__product a {
     display: block;
     font-size: 17px;
-    font-style: normal;
     font-weight: 400;
     line-height: 50px;
     color: #1d263a;
@@ -538,7 +536,6 @@ footer {
 .footer__about a {
     display: block;
     font-size: 17px;
-    font-style: normal;
     font-weight: 400;
     line-height: 50px;
     color: #1d263a;
@@ -547,18 +544,18 @@ footer {
 .name {
     color: #1d263a;
     font-size: 13px;
-    font-style: normal;
+
     font-weight: 600;
-    line-height: 22px; /* 169.231% */
+    line-height: 22px;
     letter-spacing: 4px;
     margin-bottom: 73px;
 }
 .name1 {
     color: #1d263a;
     font-size: 13px;
-    font-style: normal;
+
     font-weight: 600;
-    line-height: 22px; /* 169.231% */
+    line-height: 22px;
     letter-spacing: 4px;
     margin-bottom: 73px;
     margin-top: -250px;
