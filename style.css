@@ -328,13 +328,14 @@ h5 {
 /* Customer Review */
 
 .customers-review {
+    max-width: 1600px;
     position: relative;
+    height: 760px;
     margin-left: -100px;
+    margin-right: -100px;
 }
 h5 {
     margin-top: 227px;
-    margin-left: 150px;
-    width: 510px;
     font-size: 42px;
     font-weight: 600;
     line-height: 50.4px;
@@ -343,15 +344,15 @@ h5 {
     margin-bottom: 60px;
 }
 .customers-review__left {
+    padding-left: 150px;
     position: relative;
-    height: 758px;
+    height: 100%;
     width: 50%;
     background-color: var(--orange-color);
 }
 .customers-review__right {
     width: 50%;
-    height: 758px;
-    object-fit: cover;
+    height: 100%;
 }
 
 .customers-review__right img {
@@ -359,15 +360,15 @@ h5 {
     position: absolute;
     right: 0;
     width: 50%;
-    height: 758px;
     object-fit: cover;
+    height: 758px;
 }
 .author {
     font-size: 17px;
     color: var(--white-color);
     font-weight: 400;
     line-height: 30px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .customers-review__left p {
     margin-left: 200px;
@@ -387,4 +388,67 @@ h5 {
 #play-icon:hover {
     height: 40px;
     width: 40px;
+}
+/* Subscibe section */
+.subscribe-section {
+    height: 670px;
+}
+h6 {
+    margin-top: 135px;
+    color: var(--text-color);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.4px;
+    letter-spacing: -1px;
+    opacity: 0.89;
+    text-align: center;
+}
+.info {
+    margin-top: 36px;
+    margin-left: 400px;
+    text-align: center;
+    width: 546px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.69;
+    margin-bottom: 57px;
+}
+#email {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 400px;
+    border-color: #dfdfdf;
+    height: 70px;
+    width: 404px;
+    border-radius: 10px 0px 0px 10px;
+}
+#button {
+    border: none;
+    margin-left: -5px;
+    background-color: var(--teal-color);
+    height: 70px;
+    width: 200px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.security {
+    text-align: center;
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.69;
+}
+.security-part {
+    margin-left: 500px;
+    margin-top: 33px;
+
+    position: relative;
+    width: 300px;
+}
+.lock {
+    position: absolute;
+    top: 8px;
 }
