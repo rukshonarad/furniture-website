@@ -82,11 +82,10 @@ li {
     top: 75px;
     left: 90px;
     height: 525px;
-    /* width: 40%; */
 }
 .round-shape {
     height: 313px;
-    /* width: 25%; */
+
     position: absolute;
     top: 146px;
     left: 250px;
@@ -166,10 +165,6 @@ h1 {
     left: 0;
 }
 #heart {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
-
     background-color: #d6ebe4;
 }
 #zap {
@@ -231,7 +226,6 @@ h5 {
     font-weight: 600;
     line-height: 22px; /* 169.231% */
     letter-spacing: 4px;
-    text-transform: uppercase;
 }
 .arrow {
     margin-left: 10px;
@@ -286,7 +280,7 @@ h5 {
     color: var(--teal-color);
     font-size: 28px;
     font-weight: 600;
-    line-height: 40px; /* 142.857% */
+    line-height: 40px;
     letter-spacing: -0.5px;
     margin-right: 70px;
 }
@@ -332,3 +326,65 @@ h5 {
     left: 250px;
 }
 /* Customer Review */
+
+.customers-review {
+    position: relative;
+    margin-left: -100px;
+}
+h5 {
+    margin-top: 227px;
+    margin-left: 150px;
+    width: 510px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.4px;
+    letter-spacing: -1px;
+    color: var(--white-color);
+    margin-bottom: 60px;
+}
+.customers-review__left {
+    position: relative;
+    height: 758px;
+    width: 50%;
+    background-color: var(--orange-color);
+}
+.customers-review__right {
+    width: 50%;
+    height: 758px;
+    object-fit: cover;
+}
+
+.customers-review__right img {
+    top: 0;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 758px;
+    object-fit: cover;
+}
+.author {
+    font-size: 17px;
+    color: var(--white-color);
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 200px;
+}
+.customers-review__left p {
+    margin-left: 200px;
+    font-size: 17px;
+    color: var(--white-color);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#play-icon {
+    position: absolute;
+    top: 400px;
+    right: 380px;
+    height: 30px;
+    width: 30px;
+}
+#play-icon:hover {
+    height: 40px;
+    width: 40px;
+}
