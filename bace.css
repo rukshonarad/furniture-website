@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: MazzardL;
+    src: url(./fonts/MazzardL-Regular.otf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: MazzardL;
+    src: url(./fonts/MazzardL-SemiBold.otf) format(truetype);
+    font-weight: 600;
+}
+body {
+    font-family: "MazzardL", sans-serif;
+    font-size: 0;
+}
+:root {
+    --text-color: #1d263a;
+    --beige-color: #fae2da;
+    --orange-color: #ff794d;
+    --white-color: #fff;
+    --teal-color: #20bfa9;
+}
+.text-small {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.69;
+    color: #1d263a;
+}
+.text-medium {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 4px;
+}
+.text-large {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
