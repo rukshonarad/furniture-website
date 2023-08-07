@@ -8,18 +8,19 @@
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <header class="container">
-            <nav>
+        <header>
+            <div class="container">
                 <img src="./images/logo.svg" alt="Whiter logo" class="logo" />
-                <ul class="inline-block">
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Rooms</a></li>
-                    <li><a href="">Inspiration</a></li>
-                    <li><a href="">Support</a></li>
-                </ul>
-
-                <a class="last-nav inline-block" href="">Sign in</a>
-            </nav>
+                <nav class="inline-block">
+                    <ul>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Rooms</a></li>
+                        <li><a href="">Inspiration</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </nav>
+                <a class="last-nav" href="">Sign in</a>
+            </div>
         </header>
         <section class="hero-section container">
             <div class="hero_content">
@@ -121,23 +122,17 @@
             <div class="picture-wrapper inline-block">
                 <img src="./images/chair-dark.jpeg" alt="Dark Chair" />
             </div>
-            <div class="picture-wrapper inline-block">
+            <div class="picture-wrapper inline-block" id="last-img">
                 <img src="./images/couch.jpeg" alt="Couch" />
-            </div>
-
-            <div class="price">
-                <h4>$271</h4>
-                <h5 class="product-name">WHITE PHONIX</h5>
-                <img
-                    src="./images/arrow-right.svg"
-                    alt="Arrow right"
-                    class="arrow-right-price"
-                />
+                <div class="price">
+                    <h4>$271</h4>
+                    <h5 class="product-name">WHITE PHONIX</h5>
+                </div>
             </div>
         </section>
-        <section class="progress-section container">
+        <section class="progress-section">
             <h3>OUR WORKING PROCESS</h3>
-            <div class="devider-second">
+            <div class="section-devider">
                 <p class="inline-block num">01.</p>
                 <p class="inline-block text-large progress">
                     Discuss the concept with us.
@@ -146,16 +141,17 @@
                     Engage in an insightful conversation with our team to
                     explore your project's vision, goals, and desired outcomes
                 </p>
-
-                <a href="">
-                    <img
-                        src="./images/line.png"
-                        alt="Orange line"
-                        class="orange-line"
-                    />LEARN MORE</a
-                >
+                <div class="link">
+                    <a href="">
+                        <img
+                            src="./images/line.png"
+                            alt="Orange line"
+                            class="orange-line"
+                        />LEARN MORE</a
+                    >
+                </div>
             </div>
-            <div class="devider-second">
+            <div class="section-devider">
                 <p class="inline-block num">02.</p>
                 <p class="inline-block text-large progress">
                     Confirm the provided design.
@@ -165,15 +161,17 @@
                     experienced team will meticulously review and validate every
                     aspect.
                 </p>
-                <a href="">
-                    <img
-                        src="./images/line.png"
-                        alt="Orange line"
-                        class="orange-line"
-                    />LEARN MORE</a
-                >
+                <div class="link">
+                    <a href="">
+                        <img
+                            src="./images/line.png"
+                            alt="Orange line"
+                            class="orange-line"
+                        />LEARN MORE</a
+                    >
+                </div>
             </div>
-            <div class="devider-second">
+            <div class="section-devider">
                 <p class="inline-block num">03.</p>
                 <p class="inline-block text-large progress">
                     Get delivered the furniture on time.
@@ -182,13 +180,14 @@
                     Our dedicated team prioritizes punctuality and efficient
                     logistics to ensure that your furniture arrives precisely.
                 </p>
-                <a href=""
-                    ><img
+                <div class="link">
+                    <img
                         src="./images/line.png"
                         alt=" Orange line"
                         class="orange-line"
-                    />LEARN MORE</a
-                >
+                    />
+                    <a href="" class="orange-link-text">LEARN MORE</a>
+                </div>
             </div>
         </section>
         <section class="product-description container">
@@ -241,31 +240,35 @@
                 </button>
             </div>
         </section>
-        <section class="subscribe-section">
-            <h6>Subscribe to our newsletter to get updated</h6>
-            <p class="text-small info">
-                Get our latest update on your inbox. With lots of unique blocks,
-                you can easily build a page without coding. Build your next
-                consultancy website within few minutes.
-            </p>
-            <label for="email"></label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="    Enter email address"
-            />
-            <input
-                type="button"
-                value="SUBSCRIBE"
-                onclick="msg()"
-                id="button"
-            />
-            <div class="security-part">
-                <img src="./images/lock.svg" alt="Lock" class="lock" />
-                <p class="text-small security">
-                    We don’t spam at all, our promise!
+        <section class="subscribe-section-wrapper container">
+            <div class="subscribe-section">
+                <h6>Subscribe to our newsletter to get updated</h6>
+                <p class="text-small info">
+                    Get our latest update on your inbox. With lots of unique
+                    blocks, you can easily build a page without coding. Build
+                    your next consultancy website within few minutes.
                 </p>
+                <div class="email-wrapper">
+                    <label></label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="    Enter email address"
+                    />
+                    <input
+                        type="button"
+                        value="SUBSCRIBE"
+                        onclick="msg()"
+                        id="button"
+                    />
+                </div>
+                <div class="security-part inline-block">
+                    <img src="./images/lock.svg" alt="Lock" class="lock" />
+                    <p class="text-small security inline-block">
+                        We don’t spam at all, our promise!
+                    </p>
+                </div>
             </div>
         </section>
         <footer class="container">
