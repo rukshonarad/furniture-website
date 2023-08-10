@@ -504,7 +504,6 @@ h6 {
 /* Footer*/
 
 .footer-logo {
-    margin-left: 90px;
     display: inline-block;
     margin-bottom: 70px;
     margin-top: 0;
@@ -515,38 +514,48 @@ footer {
     padding-bottom: 60px;
 }
 .footer-content {
-    height: 500px;
     background-color: #fae2da;
     border-radius: 30px;
     padding-top: 130px;
+    padding-left: 92px;
+    padding-bottom: 137px;
 }
 .footer-content p {
     font-size: 17px;
-    margin-left: 90px;
+
     font-weight: 400;
     line-height: 30px;
     opacity: 0.69;
     margin-bottom: 46px;
 }
 .footer-text {
-    width: 277px;
     margin-bottom: 46px;
 }
-.footer-company,
-.footer-contact,
-.footer__product,
+.footer-company {
+    /* background-color: aqua; */
+    width: calc(((277 * 100) / 1478) * 1%);
+}
+.footer-contact {
+    /* background-color: aqua; */
+    width: calc(((250 * 100) / 1478) * 1%);
+}
+.footer__product {
+    display: inline-block;
+    width: calc(((188 * 100) / 1478) * 1%);
+    margin-right: calc(((168 * 100) / 1478) * 1%);
+}
 .footer__about {
     display: inline-block;
-    margin-right: 100px;
+    width: calc(((188 * 100) / 1478) * 1%);
+}
+.footer-company,
+.footer-contact {
+    display: inline-block;
+    margin-right: calc(((126 * 100) / 1478) * 1%);
 }
 .footer-company a {
-    width: 277px;
     display: block;
 }
-.footer-company p {
-    margin-left: 90px;
-}
-
 .footer-contact a {
     display: block;
     line-height: 50px;
