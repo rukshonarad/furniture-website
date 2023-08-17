@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,6 +19,9 @@
 body {
     font-family: "MazzardL", sans-serif;
     font-size: 0;
+}
+html {
+    font-size: 62.5%;
 }
 :root {
     --text-color: #1d263a;
