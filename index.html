@@ -6,35 +6,26 @@
         <title>Furniture website</title>
         <link rel="stylesheet" href="./bace.css" />
         <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="./media-query" />
+        <link rel="stylesheet" href="./media-query.css" />
     </head>
     <body>
         <header>
-            <nav>
-                <div>
-                    <img
-                        src="./images/logo.svg"
-                        alt="Whiter logo"
-                        class="logo"
-                    />
-                </div>
-                <div>
-                    <ul class="inline-block">
+            <div class="container">
+                <img src="./images/logo.svg" alt="Whiter logo" class="logo" />
+                <nav class="inline-block">
+                    <ul>
                         <li><a href="">Products</a></li>
                         <li><a href="">Rooms</a></li>
                         <li><a href="">Inspiration</a></li>
                         <li><a href="">Support</a></li>
                     </ul>
-                </div>
-
-                <div class="last-nav">
-                    <a class="inline-block" href="">Sign in</a>
-                </div>
-            </nav>
+                </nav>
+                <a class="last-nav" href="">Sign in</a>
+            </div>
         </header>
-        <section class="hero-section">
-            <div class="hero-content">
-                <div class="header-left">
+        <section class="hero-section container">
+            <div class="hero_content">
+                <div class="hero-left inline-block">
                     <img
                         src="./images/shape.png"
                         alt="Round shape"
@@ -45,7 +36,7 @@
                         class="hero-img"
                     />
                 </div>
-                <div class="header-right inline-block">
+                <div class="hero-right inline-block">
                     <p class="main-text">QUALITY DESIGN FOR ALL</p>
                     <h1>
                         Bring back the classic look by using Whiter. Easy home
@@ -67,7 +58,7 @@
                 </div>
             </div>
         </section>
-        <div class="service">
+        <div class="service container">
             <div class="first relative inline-block">
                 <div id="heart">
                     <img src="./images/heart.png" alt="Heart" class="icon" />
@@ -109,21 +100,23 @@
         </div>
         <hr />
 
-        <section class="designe-section">
-            <div>
+        <section class="designe-section container">
+            <div class="designe-section__header">
                 <h2 class="designe-header__text inline-block">
                     Explore our exclusive design.
                 </h2>
-                <img
-                    src="./images/arrow-right.svg"
-                    alt="Arrow-left"
-                    class="arrow-left"
-                />
-                <img
-                    src="./images/arrow-left.svg"
-                    alt="Arrow-right"
-                    class="arrow-right"
-                />
+                <div class="arrows inline-block">
+                    <img
+                        src="./images/arrow-left.svg"
+                        alt="Arrow-left"
+                        class="arrow-left"
+                    />
+                    <img
+                        src="./images/arrow-right.svg"
+                        alt="Arrow-left"
+                        class="arrow-left"
+                    />
+                </div>
             </div>
 
             <div class="picture-wrapper inline-block">
@@ -132,76 +125,75 @@
             <div class="picture-wrapper inline-block">
                 <img src="./images/chair-dark.jpeg" alt="Dark Chair" />
             </div>
-            <div class="picture-wrapper inline-block">
+            <div class="picture-wrapper inline-block" id="last-img">
                 <img src="./images/couch.jpeg" alt="Couch" />
-            </div>
-
-            <div class="price">
-                <h4>$271</h4>
-                <h5 class="product-name">WHITE PHONIX</h5>
-                <img
-                    src="./images/arrow-right.svg"
-                    alt="Arrow right"
-                    class="arrow-right-price"
-                />
+                <div class="price">
+                    <h4>$271</h4>
+                    <h5 class="product-name">WHITE PHONIX</h5>
+                </div>
             </div>
         </section>
         <section class="progress-section">
             <h3>OUR WORKING PROCESS</h3>
-            <div class="devider-second">
+            <div class="section-devider">
                 <p class="inline-block num">01.</p>
                 <p class="inline-block text-large progress">
                     Discuss the concept with us.
                 </p>
-                <p class="inline-block second-progress">
+                <p class="inline-block section-progress">
                     Engage in an insightful conversation with our team to
                     explore your project's vision, goals, and desired outcomes
                 </p>
-                <a href="">
-                    <img
-                        src="./images/line.png"
-                        alt="Orange line"
-                        class="orange-line"
-                    />LEARN MORE</a
-                >
+                <div class="link">
+                    <a href="">
+                        <img
+                            src="./images/line.png"
+                            alt="Orange line"
+                            class="orange-line"
+                        />LEARN MORE</a
+                    >
+                </div>
             </div>
-            <div class="devider-second">
+            <div class="section-devider">
                 <p class="inline-block num">02.</p>
                 <p class="inline-block text-large progress">
                     Confirm the provided design.
                 </p>
-                <p class="inline-block second-progress">
+                <p class="inline-block section-progress">
                     Once you provide us with the design you envision, our
                     experienced team will meticulously review and validate every
                     aspect.
                 </p>
-                <a href="">
-                    <img
-                        src="./images/line.png"
-                        alt="Orange line"
-                        class="orange-line"
-                    />LEARN MORE</a
-                >
+                <div class="link">
+                    <a href="">
+                        <img
+                            src="./images/line.png"
+                            alt="Orange line"
+                            class="orange-line"
+                        />LEARN MORE</a
+                    >
+                </div>
             </div>
-            <div class="devider-second">
+            <div class="section-devider">
                 <p class="inline-block num">03.</p>
                 <p class="inline-block text-large progress">
                     Get delivered the furniture on time.
                 </p>
-                <p class="inline-block second-progress">
+                <p class="inline-block section-progress">
                     Our dedicated team prioritizes punctuality and efficient
                     logistics to ensure that your furniture arrives precisely.
                 </p>
-                <a href=""
-                    ><img
+                <div class="link">
+                    <img
                         src="./images/line.png"
                         alt=" Orange line"
                         class="orange-line"
-                    />LEARN MORE</a
-                >
+                    />
+                    <a href="" class="orange-link-text">LEARN MORE</a>
+                </div>
             </div>
         </section>
-        <section class="product-description">
+        <section class="product-description container">
             <div class="product-description__left inline-block">
                 <img
                     src="./images/wife-husband.jpeg"
@@ -219,13 +211,12 @@
                     surrounded by unmatched tranquility and exquisite
                     relaxation.
                 </p>
-                <a href="">
-                    <img
-                        src="./images/line.png"
-                        alt="Orange line"
-                        class="orange-line-last"
-                    />EXPLORE OUR PRODUCTS</a
-                >
+                <div class="last-orange-link">
+                    <a href="">
+                        <img src="./images/line.png" alt="Orange line" />EXPLORE
+                        OUR PRODUCTS</a
+                    >
+                </div>
             </div>
         </section>
         <section class="customers-review">
@@ -252,63 +243,73 @@
                 </button>
             </div>
         </section>
-        <section class="subscribe-section">
-            <h6>Subscribe to our newsletter to get updated</h6>
-            <p class="text-small info">
-                Get our latest update on your inbox. With lots of unique blocks,
-                you can easily build a page without coding. Build your next
-                consultancy website within few minutes.
-            </p>
-            <label for="email"></label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="    Enter email address"
-            />
-            <input
-                type="button"
-                value="SUBSCRIBE"
-                onclick="msg()"
-                id="button"
-            />
-            <div class="security-part">
-                <img src="./images/lock.svg" alt="Lock" class="lock" />
-                <p class="text-small security">
-                    We don’t spam at all, our promise!
+        <section class="subscribe-section-wrapper container">
+            <div class="subscribe-section">
+                <h6>Subscribe to our newsletter to get updated</h6>
+                <p class="text-small info">
+                    Get our latest update on your inbox. With lots of unique
+                    blocks, you can easily build a page without coding. Build
+                    your next consultancy website within few minutes.
                 </p>
+                <div class="email-wrapper">
+                    <label></label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="    Enter email address"
+                    />
+                    <input
+                        type="button"
+                        value="SUBSCRIBE"
+                        onclick="msg()"
+                        id="button"
+                    />
+                </div>
+                <div class="security-part inline-block">
+                    <img src="./images/lock.svg" alt="Lock" class="lock" />
+                    <p class="text-small security inline-block">
+                        We don’t spam at all, our promise!
+                    </p>
+                </div>
             </div>
         </section>
         <footer>
-            <div class="footer-content">
-                <div class="footer-company">
-                    <img src="./images/logo.svg" alt="" class="footer-logo" />
-                    <p class="text-small footer-text">
-                        We make furniture with love and passions. No doubt,
-                        really.
-                    </p>
-                    <p>© TuranTech Inc.</p>
-                </div>
+            <div class="footer container">
+                <div class="footer__content">
+                    <div class="footer-card">
+                        <img
+                            src="./images/logo.svg"
+                            alt=""
+                            class="footer-logo"
+                        />
+                        <p class="text-small footer-text">
+                            We make furniture with love and passions. No doubt,
+                            really.
+                        </p>
+                        <p class="text-small footer-text">© TuranTech Inc.</p>
+                    </div>
 
-                <div class="footer-contact">
-                    <h4 class="text-medium name">CONTACT</h4>
-                    <a>62 Orp St, Seattle, USA</a>
-                    <a href="mailto">sales@furnatur.com</a>
-                    <a href="tel:347-567-2828" class="footer__text"
-                        >+1 800 726 915273</a
-                    >
-                </div>
-                <div class="footer__product">
-                    <h4 class="text-medium name">PRODUCT</h4>
-                    <a href="">Living Room</a>
-                    <a href="">Bed Room</a>
-                    <a href="">Office Room</a>
-                </div>
-                <div class="footer__about">
-                    <h4 class="text-medium name">OUR COMPANY</h4>
-                    <a href="">About Us</a>
-                    <a href="">Service</a>
-                    <a href="">products</a>
+                    <div class="footer-card__second">
+                        <h4 class="text-medium name">CONTACT</h4>
+                        <a>62 Orp St, Seattle, USA</a>
+                        <a href="mailto">sales@furnatur.com</a>
+                        <a href="tel:347-567-2828" class="footer__text"
+                            >+1 800 726 915273</a
+                        >
+                    </div>
+                    <div class="footer-card__third">
+                        <h4 class="text-medium name">PRODUCT</h4>
+                        <a href="">Living Room</a>
+                        <a href="">Bed Room</a>
+                        <a href="">Office Room</a>
+                    </div>
+                    <div class="footer-card__last">
+                        <h4 class="text-medium name">OUR COMPANY</h4>
+                        <a href="">About Us</a>
+                        <a href="">Service</a>
+                        <a href="">products</a>
+                    </div>
                 </div>
             </div>
         </footer>
