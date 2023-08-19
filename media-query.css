@@ -1,0 +1,175 @@
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+    .header,
+    .designe-section,
+    .progress-section,
+    .product-description,
+    .subscribe-section-wrapper {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    h1 {
+        font-size: 50%;
+    }
+    .hero-section,
+    .footer {
+        padding: 0 3rem;
+    }
+}
+@media (max-width: 800px) {
+    .nav {
+        display: none;
+    }
+    .hero-section {
+        padding: 0 2rem;
+    }
+    .service,
+    .designe-section,
+    .progress-section {
+        padding: 10rem 5rem 8rem;
+    }
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 50%;
+    }
+    .service,
+    .designe-section,
+    .progress-section,
+    .product-description {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .designe-header__text {
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+    .hero-left,
+    .hero-right {
+        display: block;
+        width: 100%;
+    }
+    .hero_content {
+        padding: 6rem 6rem;
+    }
+    .first,
+    .second,
+    .third {
+        display: block;
+        width: 100%;
+    }
+    #heart,
+    #zap,
+    #headphone {
+        display: block;
+        margin-right: 0;
+    }
+    .service {
+        padding: 10rem 5.2rem 8rem;
+    }
+
+    .service p {
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-left: 10rem;
+    }
+    .text h2 {
+        text-align: center;
+        margin-left: 10rem;
+    }
+    .product-description {
+        padding-top: 5rem;
+        padding-left: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .product-description__right {
+        width: 100%;
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .product-description__left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .picture-wrapper,
+    #last-img {
+        display: block;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .arrow-left,
+    .arrow-right {
+        display: none;
+    }
+    .progress-section h3 {
+        text-align: center;
+    }
+    .num,
+    .progress,
+    .section-progress,
+    .link {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .section-devider {
+        display: block;
+        align-items: center;
+    }
+    .progress-section {
+        max-width: 160rem;
+        margin: 0 auto;
+        padding: 2rem 6.2rem;
+    }
+    .customers-review__left {
+        display: block;
+        width: 100%;
+    }
+    .customers-review__rigth {
+        display: block;
+        width: 100%;
+    }
+    .coffee-img {
+        display: block;
+        width: 100%;
+    }
+    .play-btn {
+        top: 50%;
+        left: 50%;
+    }
+
+    #email,
+    #button {
+        display: block;
+        width: 100%;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer__content {
+        padding: 13rem 4rem;
+    }
+    .footer-card {
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+    .footer-card__main {
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+    .footer-card a,
+    .footer-text,
+    .name {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}

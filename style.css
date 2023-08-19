@@ -3,13 +3,13 @@
     margin: 0 auto;
 }
 
-nav {
+.nav {
     width: calc(100% - 18.3rem);
     vertical-align: top;
     text-align: center;
 }
 
-header {
+.header {
     padding: 4.1rem 15rem;
 }
 
@@ -33,15 +33,12 @@ ul {
 li {
     display: inline-block;
 }
-
 li:not(:last-child) {
     margin-right: 5rem;
 }
-
-.last-nav {
-    vertical-align: top;
-    display: inline-block;
-    text-align: right;
+hr {
+    max-width: 160rem;
+    margin: 0 auto;
 }
 
 .hero-section__content {
@@ -63,7 +60,7 @@ li:not(:last-child) {
     display: inline-block;
     vertical-align: middle;
     width: calc((100% - 8rem) * 0.4);
-    height: 52.5 rem;
+
     margin-right: 8rem;
     position: relative;
 }
@@ -194,7 +191,6 @@ hr {
 .text {
     width: calc(100% - 8rem - 3rem);
     display: inline-block;
-    vertical-align: middle;
 }
 
 .icon {
@@ -225,13 +221,14 @@ hr {
 .arrows {
     position: absolute;
     right: 0;
+    top: 1rem;
 }
 .picture-wrapper {
     height: 68rem;
     width: calc((100% - 5.2rem) / 3);
 }
 
-.picture-wrapper:not(:last-child) {
+.picture-wrapper {
     margin-right: 1.5rem;
 }
 .picture-wrapper img {
@@ -240,8 +237,15 @@ hr {
     object-fit: cover;
     border-radius: 1.5rem;
 }
-
+#last-img img {
+    height: 68rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
 #last-img {
+    height: 68rem;
+    width: calc((100% - 5.2rem) / 3);
     position: relative;
 }
 
@@ -250,7 +254,7 @@ hr {
     position: absolute;
     bottom: 1.5rem;
     left: 1.5rem;
-    width: calc(((30 * 100) / 140) * 1rem);
+    width: 80%;
     height: 11.5rem;
     padding: 2rem;
     background-color: #ffffff;
@@ -318,7 +322,9 @@ h4 {
 .section-devider {
     margin-bottom: 17rem;
 }
-
+.lock {
+    display: inline-block;
+}
 .num {
     width: calc((100% - 6rem - 10rem - 15rem) * 0.1);
     margin-right: 6rem;
@@ -371,7 +377,6 @@ h4 {
 
 .product-description__right {
     width: calc(60% - 18rem);
-    height: 60.4rem;
     display: inline-block;
     vertical-align: top;
     padding: 16rem 0;
@@ -381,7 +386,6 @@ h4 {
     display: inline-block;
     width: 40%;
     height: auto;
-
     margin-right: 8rem;
 }
 
@@ -400,7 +404,6 @@ h4 {
 }
 
 .progress2 {
-    width: 40rem;
     margin-bottom: 2rem;
 }
 
@@ -408,6 +411,7 @@ h4 {
     position: relative;
     bottom: 11rem;
     left: 20rem;
+    width: 30%;
 }
 
 .last-orange-link img {
@@ -442,11 +446,11 @@ h5 {
     background-color: var(--orange-color);
 }
 
-.customers-review__right {
+.customers-review__rigth {
     width: 50%;
 }
 
-.customers-review__right img {
+.coffee-img {
     top: 0;
     position: absolute;
     right: 0;
@@ -470,14 +474,6 @@ h5 {
     font-weight: 400;
     line-height: 3rem;
 }
-.coffee-img {
-    object-fit: cover;
-    width: 50%;
-    height: 75.8rem;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
 
 .play-btn {
     position: absolute;
@@ -489,13 +485,6 @@ h5 {
     border-radius: 50%;
     border: 0.4rem solid white;
     background-color: transparent;
-}
-
-.play-icon {
-    height: 3rem;
-    width: 3rem;
-    transition-property: width, height;
-    transition-duration: 1s;
 }
 
 .play-icon:hover {
@@ -552,19 +541,16 @@ h6 {
 }
 
 .security {
-    width: 25rem;
     text-align: center;
 }
 
 .security-part {
     text-align: center;
-    padding-left: 5rem;
 }
-
 .lock {
-    margin-top: 3.3rem;
+    display: inline-block;
+    margin-right: 1rem;
 }
-
 /* Footer */
 
 .footer-logo {
@@ -572,7 +558,7 @@ h6 {
     vertical-align: top;
 }
 
-footer {
+.footer {
     padding: 6rem;
 }
 
@@ -592,34 +578,23 @@ footer {
     margin-bottom: 4.6rem;
 }
 
+.footer-card__main {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 42rem) * 0.3);
+    margin-right: 12.6rem;
+}
+.footer-card__main .footer-card:not(:last-child) {
+    margin-right: 12.6rem;
+}
 .footer-card {
     display: inline-block;
-    width: calc((100% - 14.6rem) * 1 / 4);
+    vertical-align: top;
+    /* width: calc((100% - 42rem) * 1.5 / 4); */
+}
+.footer-card:not(:last-child) {
     margin-right: 12rem;
 }
-.footer-card__second {
-    display: inline-block;
-    width: calc((100% - 14.6rem) * 1 / 4);
-    margin-right: 12rem;
-}
-.footer-card__third {
-    display: inline-block;
-    width: calc((100% - 14.6rem) * 1 / 4);
-    margin-right: 17rem;
-}
-.footer-card__last {
-    display: inline-block;
-    width: calc((100% - 14.6rem) * 1 / 4);
-}
-.footer-card__last a {
-    display: block;
-    font-size: 1.7rem;
-    font-weight: 400;
-    line-height: 5rem;
-    color: var(--text-color);
-    opacity: 0.69;
-}
-
 .footer-card a {
     display: block;
     font-size: 1.7rem;

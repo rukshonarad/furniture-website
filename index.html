@@ -9,18 +9,18 @@
         <link rel="stylesheet" href="./media-query.css" />
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="container">
                 <img src="./images/logo.svg" alt="Whiter logo" class="logo" />
-                <nav class="inline-block">
+                <nav class="nav inline-block">
                     <ul>
                         <li><a href="">Products</a></li>
                         <li><a href="">Rooms</a></li>
                         <li><a href="">Inspiration</a></li>
                         <li><a href="">Support</a></li>
                     </ul>
+                    <li class="last-nav"><a href="">Sign in</a></li>
                 </nav>
-                <a class="last-nav" href="">Sign in</a>
             </div>
         </header>
         <section class="hero-section container">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="hero-right inline-block">
                     <p class="main-text">QUALITY DESIGN FOR ALL</p>
-                    <h1>
+                    <h1 class="text-large">
                         Bring back the classic look by using Whiter. Easy home
                         delivery!
                     </h1>
@@ -125,7 +125,7 @@
             <div class="picture-wrapper inline-block">
                 <img src="./images/chair-dark.jpeg" alt="Dark Chair" />
             </div>
-            <div class="picture-wrapper inline-block" id="last-img">
+            <div class="inline-block" id="last-img">
                 <img src="./images/couch.jpeg" alt="Couch" />
                 <div class="price">
                     <h4>$271</h4>
@@ -221,6 +221,7 @@
         </section>
         <section class="customers-review">
             <div class="customers-review__left inline-block">
+                s
                 <h5>
                     “It was super easy to share my unique concept. I got exactly
                     what I ordered. Great service!”
@@ -228,19 +229,13 @@
                 <p class="author">Jenny Wilson</p>
                 <p>St. Celina, Delaware</p>
             </div>
-            <div class="customers-review__rigth">
+            <div class="customers-review__rigth inline-block">
                 <img
                     src="./images/lady-drinking-coffee.jpeg"
                     alt="Lady drinking coffee"
                     class="coffee-img"
                 />
-                <button class="play-btn">
-                    <img
-                        src="./images/play.svg"
-                        alt="Play button"
-                        class="play-icon"
-                    />
-                </button>
+                <button class="play-btn"></button>
             </div>
         </section>
         <section class="subscribe-section-wrapper container">
@@ -277,12 +272,10 @@
         <footer>
             <div class="footer container">
                 <div class="footer__content">
-                    <div class="footer-card">
-                        <img
-                            src="./images/logo.svg"
-                            alt=""
-                            class="footer-logo"
-                        />
+                    <div class="footer-card__main">
+                        <div class="footer-logo">
+                            <img src="./images/logo.svg" alt="" />
+                        </div>
                         <p class="text-small footer-text">
                             We make furniture with love and passions. No doubt,
                             really.
@@ -290,7 +283,7 @@
                         <p class="text-small footer-text">© TuranTech Inc.</p>
                     </div>
 
-                    <div class="footer-card__second">
+                    <div class="footer-card">
                         <h4 class="text-medium name">CONTACT</h4>
                         <a>62 Orp St, Seattle, USA</a>
                         <a href="mailto">sales@furnatur.com</a>
@@ -298,13 +291,13 @@
                             >+1 800 726 915273</a
                         >
                     </div>
-                    <div class="footer-card__third">
+                    <div class="footer-card">
                         <h4 class="text-medium name">PRODUCT</h4>
                         <a href="">Living Room</a>
                         <a href="">Bed Room</a>
                         <a href="">Office Room</a>
                     </div>
-                    <div class="footer-card__last">
+                    <div class="footer-card">
                         <h4 class="text-medium name">OUR COMPANY</h4>
                         <a href="">About Us</a>
                         <a href="">Service</a>
