@@ -39,8 +39,7 @@
     .designe-section,
     .progress-section,
     .product-description {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding: 3rem;
     }
     .designe-header__text {
         display: block;
@@ -52,20 +51,31 @@
         display: block;
         width: 100%;
     }
+    .hero-section {
+        padding-bottom: 3rem;
+    }
     .hero_content {
         padding: 6rem 6rem;
     }
+
     .first,
     .second,
     .third {
         display: block;
         width: 100%;
+        margin-right: 0;
+        position: relative;
+        margin-bottom: 9rem;
     }
     #heart,
     #zap,
     #headphone {
         display: block;
         margin-right: 0;
+        position: absolute;
+        margin-bottom: 2rem;
+        top: -10rem;
+        left: 38%;
     }
     .service {
         padding: 10rem 5.2rem 8rem;
@@ -81,9 +91,7 @@
         margin-left: 10rem;
     }
     .product-description {
-        padding-top: 5rem;
-        padding-left: 5rem;
-        padding-bottom: 5rem;
+        padding: 6rem 3rem;
     }
 
     .product-description__right {
@@ -93,8 +101,11 @@
         padding-bottom: 1rem;
         margin-right: 0;
     }
-
+    .wife-husband {
+        width: 100%;
+    }
     .product-description__left {
+        display: block;
         width: 100%;
         margin-right: 0;
     }
@@ -124,12 +135,17 @@
         display: block;
         align-items: center;
     }
+
     .progress-section {
         max-width: 160rem;
         margin: 0 auto;
         padding: 2rem 6.2rem;
     }
+    .customers-review {
+        position: none;
+    }
     .customers-review__left {
+        padding-bottom: 10rem;
         display: block;
         width: 100%;
     }
@@ -138,8 +154,10 @@
         width: 100%;
     }
     .coffee-img {
+        position: none;
         display: block;
         width: 100%;
+        height: 100%;
     }
     .play-btn {
         top: 50%;
