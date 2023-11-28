@@ -436,7 +436,7 @@ h4 {
 
 .customers-review__left {
     padding: 20rem 10rem;
-    height: 78rem;
+    height: 72rem;
     width: 50%;
     background-color: var(--orange-color);
     display: inline-block;
@@ -460,14 +460,14 @@ h4 {
 .customers-review__img-wrapper {
     display: inline-block;
     vertical-align: middle;
-    height: 78rem;
+    height: 72rem;
     width: 100%;
 }
 .customers-review__rigth {
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    height: 78rem;
+    height: 100%;
     position: relative;
 }
 
