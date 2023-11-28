@@ -25,6 +25,15 @@
     .hero-section {
         padding: 0 2rem;
     }
+    .customers-review__left {
+        padding: 20rem 5rem;
+        display: block;
+        width: 100%;
+    }
+    .customers-review__rigth {
+        display: block;
+        width: 100%;
+    }
     .service,
     .designe-section,
     .progress-section {
@@ -145,9 +154,12 @@
         position: none;
     }
     .customers-review__left {
-        padding-bottom: 10rem;
+        padding: 20rem 5rem;
         display: block;
         width: 100%;
+    }
+    .customers-review__left h5 {
+        margin-right: 0;
     }
     .customers-review__rigth {
         display: block;
