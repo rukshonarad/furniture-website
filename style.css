@@ -1,12 +1,41 @@
 .container {
     max-width: 160rem;
     margin: 0 auto;
+    position: relative;
 }
 
 .nav {
     width: calc(100% - 18.3rem);
     vertical-align: top;
     text-align: center;
+}
+
+#mobile-nav-icon {
+    display: none;
+}
+
+.close-icon {
+    font-size: 6rem;
+    color: #1d263a;
+    position: absolute;
+    right: 3rem;
+    top: 2.9rem;
+}
+
+.mobile-nav {
+    background-color: rgb(251, 245, 245);
+    height: 108vw;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+
+    display: none;
+}
+
+.show-menu {
+    display: inline-block;
 }
 
 .header {
